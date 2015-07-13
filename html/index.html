@@ -1,0 +1,186 @@
+<html>
+<head>
+	<title>BLACK EYE BEAN</title>
+	<link rel='stylesheet' href='../css/normalize.css'/>
+	<link rel='stylesheet' href='../css/bootstrap.css'/>
+	<link rel='stylesheet' href='../css/styles.css'/>
+</head>
+<body>
+
+	<div class='container'>
+
+		<nav id='sticky'>
+			<div id='nav-selects'>
+				<p id='slug'>Avoid food waste.</p>
+		  		<div id='total'>$ </div>
+					<a href="#" id='shopping-cart'>Shopping Cart</a>
+<!-- 					<a href="#">Shop</a>
+ -->					<a href="#" id='about-link'>About</a>
+				</div>
+
+				<div class='shopping-items'>
+					<ul>
+						<li>Stuff You Bought</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+		<div id='background'>
+
+			<div class='row row1'>
+				<div class='col-md-8 col-md-offset-2'>
+					<h1 >BLACK EYE BEAN</h1>
+				</div>
+			</div>
+
+			<div class='row'>
+				<div class='col-md-3 col-md-offset-1'>
+					<div class="btn-group dpSwitch" data-toggle="buttons" id='Switch'>
+
+					 <label class="btn btn-primary active dpSwitch">
+						<input type="radio" name="options" id="delivery"  value="delivery" autocomplete="off" checked> Delivery
+					</label>
+
+					<label class="btn btn-primary dpSwitch" >
+						<input type="radio" name="options" id="pickup" value="pickup" autocomplete="off"> Pick Up
+					</label>
+
+					
+					
+					</div>
+				</div>
+
+				<div class='col-md-4'>
+					<form>
+
+						<div id='address'>
+							<h2>Where do you want to send it?</h2>
+							<input type='text' name='address' class='form-control' placeholder='Enter your address'>
+						</div>
+
+						<div id='stores'>
+							<h2>Find a store</h2>
+							<select name='stores' class='form-control dropdown' id='chooseStore'>
+			
+							</select>
+						</div>
+
+					</form>
+
+				</div>
+
+				<div class='col-md-3'>
+					<h2>When do you want to cook?</h2>
+					<select name='cook-day' class='form-control dropdown' id='chooseDay'>
+						<option value='day'>Today</option>
+						<option value='day'>Tomorrow</option>
+						<option value='day'>Two days from now</option>
+						<option value='day'>Later than that ^^</option>
+					</select>
+				<button id='next'>NEXT >></button>
+
+				</div>
+
+			</div>
+
+			<div class='row'>
+				<div class='col-md-10 col-md-offset-1'>
+					<div id='map-canvas'>
+						<p>MAP!!!!</p>
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+		<div id='bundles'>
+
+			<div class='row'>
+				<div class='col-md-offset-3 col-md-6'>
+					<h3 id="bundle-header">What do you want to make?</h3>
+				</div>
+			</div>
+
+			<div class='row'>
+				<div  class='col-md-10 col-md-offset-1 button-filters'>
+	                  <button class="btn btn-default filter" data-filter="all"> All</button>
+	                  <button class="btn btn-default filter" data-filter=".juice">Juice</button>
+	                  <button class="btn btn-default filter" data-filter=".appetizers">Appetizers</button>
+	                  <button class="btn btn-default filter" data-filter=".sharing">Good For Sharing</button>
+	                  <button class="btn btn-default filter" data-filter=".quick-dinner">Quick Dinners</button>
+				</div>
+			</div>
+
+			<div class='row'>
+				<div class='col-md-10 col-md-offset-1'>
+					<div id='recs'>
+						<div class='bundle mix sharing'></div>
+						<div class='bundle mix'></div>
+						<div class='bundle mix'></div>
+						<div class='bundle mix'></div>
+						<div class='bundle mix'></div>
+						<div class='bundle mix'></div>
+						<div class='bundle mix'></div>
+						<div class='bundle mix'></div>				
+						<div class='bundle mix'></div>
+						<div class='bundle mix'></div>
+						<div class='bundle mix'></div>
+						<div class='bundle mix'></div>
+						<div class='bundle mix'></div>
+						<div class='bundle mix'></div>
+						<div class='bundle mix'></div>
+						<div class='bundle mix'></div>
+						<div class='bundle mix'></div>
+						<div class='bundle mix'></div>
+						<div class='bundle mix'></div>
+						<div class='bundle mix'></div>
+					</div>
+				</div>
+		</div>
+		
+		</div class='row'>
+			<div class= 'col-md-12' id='footer'>
+
+				<div class='col-md-5 col-md-offset-6' id='about'>
+					<h4>What is <i>Black Eye Bean</i>?</h4>
+					
+					<br>
+
+					<p>It's a shopping tool with access to groceries around their peak, for less. Delivery is our core service. And, we bundle ingredients by recipe for quick meal ideas. Buying food at it's peak is great.  Here's why: </p>
+
+					<ul id='peak-reasons'>
+							
+						<li>You get fresh food and save money. Stores want to sell peak food quickly so it doesn't start to show signs of aging (marketing thing).  <i>Black Eye Bean</i> helps clear that inventory and gets you a discount.
+						</li>
+
+						<br>
+
+						<li>You have to use your groceries soon. Food often gets thrown away after waiting too long to be used. Buying food to make soon will avoid that waste.
+						</li>
+
+						<br>
+
+						<li>You're making a statement about avoiding food waste. Encourage better practices across the industry with your purchasing power.
+						</li>
+
+
+						<!-- <p>Food waste is a real thing at every level- farming, wholesaling, retailing, fridge neglecting. Grocery stores buy what sells best.  Consumers buy what seemingly deserves their money.  But, as we are uncovering, the aesthetics of food is sometimes just marketing. Chemically treated foods tend to shine brightest from the produce section. But keep in mind, farmers markets around the world showcase freshly-plucked, bold-flavored and beautiful fruits and vegetables with their natural discolorations and irregular shapes. It should be about what's good for you, not marketing.</p> -->
+
+					</ul>
+				</div>
+
+			</div>
+		</div>
+
+
+	</div>
+
+	<script src='../js/jquery-2.1.4.min.js'></script>
+	<script src='../js/jquery.mixitup.min.js'></script>
+	<script type="text/javascript" src='https://maps.googleapis.com/maps/api/js?key=AIzaSyCai6JsnO1x5877izmuf9Bd3KiHLe6S0eM
+'></script>
+	<script src='../js/bootstrap.js'></script>
+	<script src='../js/index.js'></script>
+</body>
+</html>

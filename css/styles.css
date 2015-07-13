@@ -1,0 +1,306 @@
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+	width: 100%;
+	font-family: arial;
+	background-color: rgb(249, 251, 250);
+	margin: 0 auto;
+	color: white;
+}
+
+.container {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+#background {
+	width: 100%;
+	height: 1000px;
+	background: url('../images/bag-groceries.jpg') no-repeat center center fixed; 
+	background-size: cover;
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+ 	-o-background-size: cover;
+	background-position: 0 -8em;
+	float: left;
+	padding: 4em;
+}
+
+h1 {
+	color: white;
+	font-size: 8rem;
+}
+
+h2 {
+	font-size: 2rem;
+	font-weight: 500;
+	margin-top: 1rem;
+}
+
+h3 {
+	float: left;
+	color: black;
+	font-weight: 600;
+	font-size: 4.5rem;
+	margin-top: 4rem;
+}
+
+h4 {
+	font-size: 3rem;
+	font-weight: 500;
+}
+#sticky {
+	background: rgba(0, 0, 0, 0.7);
+	margin: 0 auto;
+	padding: 1rem 2rem;
+	font-size: 2rem;
+	position: fixed;
+	width: 100%;
+	height: 60px;
+	left: 0;
+	top: 0;
+	z-index: 100;
+	border-top: 0;
+	float: left;
+	vertical-align: center;
+}
+
+#slug {
+	float: left;
+}
+
+#nav-selects {
+	margin: 0 auto;
+}
+
+nav a {
+	margin: 0 3rem;
+	color: white;
+	font-size: 2rem;
+	text-decoration: none;
+	font-weight: 600;
+	float: right;
+}
+
+#shopping-cart, .shopping-items, #total {
+	display: none;
+}
+
+
+.shopping-items ul {
+	float: right;
+	clear: right;
+	margin: 0.5em 3em;
+}
+
+#total {
+	float: right;
+	font-size: 1em;
+	color: white;
+	margin-right: 1em;
+}
+
+.row1{
+	padding: 5rem;
+}
+
+#Switch {
+	width: 250px;
+	height: 200px;
+}
+
+
+.btn-group > .btn{
+	padding: 5px;
+	color: rgb(130, 130, 130);
+	border: black 1px solid;
+
+}
+
+.btn-group > .active {
+	background-color: rgba(54, 240, 162, 0.8);
+	border-radius: 5px;
+	font-weight: 600;
+	color: white;
+
+}
+
+.btn-group > .active:hover {
+	background-color: rgba(54, 240, 162, 1);
+	color: white;
+	font-weight: 600;
+}
+
+.dpSwitch{
+	width: 248px;
+	height: 50px;
+	font-size: 3rem;
+	border-radius: 5px;
+}
+
+
+.btn-primary {
+	background-color: rgba(0, 0, 0, 0.5);
+	border-radius: 5px;
+}
+
+
+.active {
+	border: 1px solid red;
+	border-radius: 5px;
+}
+
+.btn:hover {
+	background-color: rgba(0, 0, 0, 0.7);
+	color: white;
+	font-weight: 500;
+
+}
+#address input{
+	background-color: rgba(54, 240, 162, .7);
+	font-size: 1.8rem;
+}
+
+input-placeholder {
+
+}
+
+#address {
+	margin: 0;
+	font-size: 3rem;
+}
+
+#stores {
+	font-size: 3rem;
+	margin: 0;
+}
+
+.dropdown {
+	font-size: 1.7rem;
+}
+
+#chooseStore {
+	margin: 0 auto;
+	background-color: rgb(226, 243, 229);
+	opacity: 0.8
+}
+
+#chooseDay {
+	margin: 0 auto;
+	background-color: rgba(54, 240, 162, .8);
+}
+
+#next {
+	float: right;
+	margin: 2em;
+	background-color: rgba(0, 0, 0, 0.2);
+	width: 10em;
+	height: 3em;
+	font-weight: 600;
+	color: white;
+	font-size: 2rem;
+	padding: 0;
+}
+
+#map-canvas {
+	float: left;
+	height: 50%; 
+	width: 100%;
+	margin: 0; 
+	padding: 0;
+}
+
+#map p {
+	font-size: 10rem;
+}
+
+.window {
+	color: black;
+}
+
+.bundle {
+	width: 25rem;
+	height: 18rem;
+	background-color: rgba(0, 0, 0, .85);
+	float: left;
+	margin: .5rem;
+	padding: 1.5rem;
+	position: relative;
+	display: none;
+}
+
+#recs  {
+	margin: 5rem auto;
+	display: inline-block;
+	float: left;
+	clear: left;
+	width: 100%;
+}
+
+
+#bundles {
+	text-align: center;
+	background: url('../images/plate.jpg') no-repeat center center fixed;
+	background-size: cover;
+	width: 100%;
+	clear: left;
+}
+
+.bundle-title, .bundle-time, .bundle-percent {
+	float: left;
+	clear: left;
+	text-align: left;
+}
+
+.bundle-title {
+	font-weight: 600;
+	font-size: 1.75rem;
+}
+
+.bundle-details {
+	font-size: 1.5rem;
+	float: left;
+	clear: both;	
+	position: absolute;
+	bottom: 5px;
+	left: 5px;
+	margin: 1rem;
+	color: rgb(210, 47, 47);
+}
+
+.add-to-cart {
+	float: right;
+	clear: both;
+	margin: 1rem;
+	background-color: rgba(0, 0, 0, 1);
+	position: absolute;
+	bottom: 5px;
+	right: 5px;
+	border: 1px solid gray;
+}
+
+#about {
+	text-align: left;
+	margin-top: 3rem;
+	padding: 3rem;
+	font-size: 1.65rem;
+	background-color: rgba(0, 0, 0, .8);
+}
+
+#peak-reasons {
+	padding: 0px;
+}
+
+#footer {
+	height: 70rem;
+	width: 100%;
+	background-color: black;
+	background: url('../images/utensils.jpg');
+	background-size: cover;
+}
+
