@@ -127,8 +127,10 @@ $(function(){
     $(window).scroll(function () {
     	if ($(this).scrollTop() > 200) {
     		$('#slug').text('Avoid food waste. Be a good bean.');
+    		$('#slug').addClass("animated bounceInDown");
     	 } else if ($(this).scrollTop() < 200) {
     	 	$('#slug').text('Avoid food waste.')
+    	 	$('#slug').addClass("animated bounceInUp")
     	 }
 	});
 
